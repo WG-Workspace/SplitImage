@@ -12,7 +12,9 @@
 
 @property (nonatomic, strong) UIImage *splitImage;
 
-
+/**
+ *  初始化方法
+ */
 - (instancetype)initWithFrame:(CGRect)frame andImage:(UIImage *)image;
 
 @end
